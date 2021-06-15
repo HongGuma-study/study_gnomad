@@ -6,7 +6,7 @@ import Axios from 'axios';
 import NavBar from './NavigationBar.js'
 import Noti from './Notification.js'
 import Home from './Home.js'
-import About from './About.js'
+import About from './about/About.js'
 
 function Main(){
     /*
@@ -22,7 +22,7 @@ function Main(){
         <NavBar/> 
         <Noti/>
         <Route path="/" component={Home} exact/>
-        <Route path="/About" component={About} />
+        <Route path="/about" component={About} />
         
     </div>
     )

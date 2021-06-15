@@ -22,7 +22,8 @@ body{ display:inline; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Ro
 .home img{ width: 320px; height: 340px; border-radius: 160px; }
 .home .img-link{ font-size:12px; text-align: center; color:lightgrey; }
 .home .img-link a{ text-decoration: none; color: lightgrey; }
-.home li{margin-left: 3.5rem;}
+.home .ex-txt-box{ display: flex; flex-direction: column; align-items: center;}
+
 
 /*===== About.js =====*/
 .about-wrap{ margin:4.8rem 3.9rem 0 3.9rem; }

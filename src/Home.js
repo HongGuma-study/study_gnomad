@@ -37,8 +37,8 @@ function Home(){
             </div>
             <div className="img-link">
                 Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-            <p className="ex-txt">
-                Examples
+            <div className="ex-txt-box">
+                <p>Examples</p>
                 <ul>
                     {emps.map(emp=>(
                         <div key={emp.emp_no}>
@@ -57,7 +57,7 @@ function Home(){
                         </div>
                     ))}
                 </ul>
-            </p>
+            </div>
             <p>
                 Enim cillum sunt sint aute. Mollit consequat ea nostrud duis cillum aute amet. Elit cupidatat eu ullamco duis mollit pariatur velit. Officia adipisicing ipsum reprehenderit voluptate ut.
 
