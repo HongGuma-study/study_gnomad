@@ -33,7 +33,7 @@ function Home(){
         <div className="home">
             <p>Ipsum tempor dolore labore cupidatat commodo incididunt nulla officia anim incididunt ipsum ut.</p>
             <div className="home-img">
-                <img src={img}/>
+                <img src={img} alt="homeImg"/>
             </div>
             <div className="img-link">
                 Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>

@@ -8,13 +8,12 @@ import About from './about/About.js'
 
 function Main(){
     return(
-    <div>
-        <NavBar/> 
-        <Noti/>
-        <Route path="/" component={Home} exact/>
-        <Route path="/about" component={About} />
-        
-    </div>
+        <div>
+            <NavBar/> 
+            <Noti/>
+            <Route path="/" component={Home} exact/>
+            <Route path="/about" component={About} />
+        </div>
     )
 }
 
