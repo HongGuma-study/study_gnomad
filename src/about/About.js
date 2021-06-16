@@ -1,4 +1,4 @@
-import React from 'react';
+import react from 'react';
 import Markdown from 'markdown-to-jsx'
 
 import aboutContent from './about.md';
@@ -9,7 +9,7 @@ function slice(shortW){
     return shortW.split('/');
 }
 
-class About extends React.Component{
+class About extends react.Component{
     constructor(props) {
         super(props)
         this.state = { 
